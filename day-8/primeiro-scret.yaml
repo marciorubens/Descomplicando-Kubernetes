@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+ name: teste-secret
+type: opaque
+data:
+  username: dXNlcnRlc3Q=
+  password: dGVzdGFuZG8=
